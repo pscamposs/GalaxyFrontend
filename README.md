@@ -32,7 +32,7 @@ No GalaxyStore, estamos comprometidos em oferecer os melhores plugins para eleva
 
 ## Demonstração
 
-Visite o site [aqui](https://pscamposs.github.io/galaxystorefrontend/) (link para a demonstração online).
+Visite o site [aqui](https://galaxystore.pscampos.online/) (link para a demonstração online).
 
 ## Tecnologias Utilizadas
 
