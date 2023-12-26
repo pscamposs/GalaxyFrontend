@@ -1,0 +1,263 @@
+.box-plugins {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.box-filter {
+  margin-top: 24px;
+
+  text-align: center;
+  padding: 25px 0;
+}
+
+.box-filter h2 {
+  text-align: left;
+  padding: 16px;
+  color: #533a7b;
+  font-size: 32px;
+}
+
+.box-filter ul {
+  list-style: none;
+}
+
+.box-filter ul li {
+  display: inline;
+}
+
+.box-filter ul li a {
+  padding: 0 25px;
+
+  text-decoration: none;
+  font-size: 30px;
+  transition: 1s;
+}
+
+.box-filter ul li a:hover {
+  color: #533a7b;
+}
+
+.card {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #222;
+  padding: 24px;
+  margin-left: 12px;
+  text-align: center;
+  transition: all 0.5s;
+
+  overflow: hidden;
+}
+
+.box-plugins .card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  max-width: 64px;
+  cursor: pointer;
+}
+.card .card-title {
+  margin: 18px 0;
+}
+.card h2 {
+  color: #828282;
+  font-size: 2rem;
+}
+
+.card p {
+  color: #f2f2f2;
+
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.card button {
+  border: none;
+  outline: none;
+  background-color: #533a7b;
+  padding: 12px 16%;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  opacity: 0.9;
+}
+
+.box-plugins-list {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  transition: height 0.3s ease;
+}
+
+.modal-active {
+  height: 50%;
+}
+
+.modal-header {
+  display: flex;
+  padding: 8px;
+}
+
+.modal-header h1 {
+  font-size: 3.2rem;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.modal-header p {
+  font-size: 1.2rem;
+  color: #533a7b;
+  font-weight: 500;
+}
+
+.modal-header img {
+  width: 100%;
+  max-width: 64px;
+  margin: 0 25px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.selected {
+  color: #533a7b;
+}
+
+@media (max-width: 980px) {
+  .box-filter {
+    text-align: left;
+  }
+}
+
+.box-plugins .card {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #222;
+  padding: 24px;
+  margin-left: 12px;
+  text-align: center;
+  transition: all 0.5s;
+
+  overflow: hidden;
+}
+
+.card-image {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.box-plugins .card .card-image img {
+  width: 100%;
+  max-width: 64px;
+}
+.box-plugins .card .card-title {
+  margin: 18px 0;
+}
+.box-plugins .card .card-title h2 {
+  color: #828282;
+  font-size: 2rem;
+}
+
+.box-plugins .card .card-title p {
+  color: #f2f2f2;
+
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.box-plugins .card .card-footer {
+  padding: 8px 0;
+}
+
+.box-plugins .card .card-footer button {
+  border: none;
+  outline: none;
+  background-color: #533a7b;
+  padding: 12px 16%;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.box-plugins .card .card-footer button:hover {
+  opacity: 0.9;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#cartClose {
+  color: #533a7b;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 8px;
+}
+
+#cartModal h2 {
+  font-size: 2rem;
+  padding: 12px;
+
+  color: #533a7b;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#cartClose:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 980px) {
+  .box-filter {
+    text-align: left;
+  }
+
+  #cartModal {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 980px) {
+  .box-filter {
+    text-align: left;
+  }
+}

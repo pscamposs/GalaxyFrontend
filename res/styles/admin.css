@@ -1,0 +1,145 @@
+table caption {
+  font-size: 1.4rem;
+  color: gray;
+  margin: 10px;
+}
+
+table tr,
+th {
+  padding: 9px;
+  text-align: center;
+  color: aliceblue;
+  background-color: #151416;
+}
+
+table td:nth-child(even) {
+  background-color: #1d1c1f;
+}
+
+table td {
+  color: gray;
+  padding: 12px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+table td button {
+  border: none;
+  color: gray;
+  background-color: transparent;
+  margin: 0 8px;
+}
+table td button:hover {
+  cursor: pointer;
+  color: antiquewhite;
+}
+
+main {
+  display: inline;
+  margin: 0 auto;
+}
+
+.main {
+  height: 50%;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+
+  justify-content: center;
+}
+
+#generalInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.generalContainer {
+  background-color: #533a7b;
+  width: 100%;
+  height: 80px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.generalContainer h3 {
+  color: #f2f2f2;
+  text-align: start;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.generalContainer p {
+  color: floralwhite;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#pluginContainer {
+  padding: 8px;
+  margin: 50px 0;
+  width: 100% ;
+  overflow: auto;
+}
+
+#pluginForm {
+  width: 100%;
+  margin: 8px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pluginForm {
+  border: 1px solid #1d1c1f;
+  padding: 8px;
+}
+.pluginForm h2 {
+  color: #f2f2f2;
+}
+
+input {
+  border: none;
+  background-color: #1d1c1f;
+  padding: 8px;
+  margin: 12px 5px;
+  font-size: 1rem;
+  color: #f2f2f2;
+  width: 100%;
+  max-width: 300px;
+}
+
+input:focus {
+  outline: #444149;
+}
+
+input:disabled {
+  color: #444149;
+}
+
+input[type="submit"] {
+  color: aliceblue;
+  background-color: blueviolet;
+  font-weight: 600;
+}
+
+label {
+  color: aliceblue;
+  font-weight: 600;
+}
+form label {
+  display: block;
+}
+
+#closeModal {
+  text-align: end;
+  padding: 8px;
+}
+#closeModal:hover {
+  cursor: pointer;
+  color: #444149;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#121113" />
+    <title>GalaxyStore - Plugins</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="res/styles/main.css" />
+    <link rel="stylesheet" href="res/styles/plugin.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <nav>
+          <div class="menu-img">
+            <a href="index.html"
+              ><img src="res/images/brand/galaxy-logo.png" alt="Galaxy Logo"
+            /></a>
+          </div>
+          <div class="menu-content">
+            <ul>
+              <li><a href="./">Inicio</a></li>
+              <li><a href="#">Plugins</a></li>
+              <li><a href="./terms.html">Termos</a></li>
+              <li><a href="./profile/">Minha Conta</a></li>
+              <li>
+                <a href="#" class="fa fa-box" id="cart"></a
+                ><sup id="cartItems"></sup>
+              </li>
+            </ul>
+          </div>
+          <i class="fa fa-bars"></i>
+        </nav>
+      </header>
+      <main>
+        <aside id="cartModal">
+          <div class="modalHeader">
+            <h2>Meus Produtos</h2>
+            <i class="fa fa-times" id="cartClose"></i>
+          </div>
+
+          <div id="cartPlugins"></div>
+          <div id="cartCheckout">
+            <p>Total: R$0,00</p>
+            <p>Desconto: R$0,00</p>
+            <h3>SubTotal: R$0,00</h3>
+          </div>
+        </aside>
+
+        <div class="box-plugins">
+          <div class="box-filter">
+            <h2>Categorias</h2>
+            <ul>
+              <li><a href="#" data-filter="">Geral</a></li>
+              <li><a href="#" data-filter="economia">Economia</a></li>
+              <li><a href="#" data-filter="mecanica">Mecanica</a></li>
+              <li><a href="#" data-filter="factions">Factions</a></li>
+              <li><a href="#" data-filter="rankup">RankUP</a></li>
+              <li><a href="#" data-filter="fullpvp">FullPVP</a></li>
+            </ul>
+          </div>
+          <div class="box-plugins-list"></div>
+        </div>
+      </main>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ad448ebcec.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="res/scripts/main.js"></script>
+    <script src="res/scripts/plugins.js"></script>
+  </body>
+</html>

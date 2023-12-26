@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#121113" />
+    <title>GalaxyStore - Autenticação</title>
+
+    <link rel="stylesheet" href="../res/styles/main.css" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div>
+      <header></header>
+      <main>
+        <div class="box-tx">
+          <h1>
+            Efetue o seu registro
+            <b>para continuar</b>
+          </h1>
+          <div class="box-auth">
+            <form id="authForm">
+              <input type="hidden" name="action" value="register" />
+
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+              <label for="username">Nome de Usuario</label>
+              <input type="text" name="username" id="username" required />
+              <label for="password">Senha</label>
+              <input type="password" name="password" id="password" required />
+              <input type="submit" value="Registrar" />
+              <p>
+                Já possuí conta?
+                <a href="./">entrar na conta</a>
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="box-img">
+          <a href="../index.html"
+            ><img
+              src="https://www.minecraft.net/content/dam/minecraft/community/floatinghouse.png"
+              alt="Minecraft Island"
+              class="animation"
+          /></a>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="../res/scripts/main.js"></script>
+    <script src="../res/scripts/auth.js"></script>
+  </body>
+</html>
